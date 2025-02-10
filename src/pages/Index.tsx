@@ -7,27 +7,45 @@ import { Product } from '@/types/product';
 const products: Product[] = [
   {
     id: '1',
+    sku: 'LAV-001',
+    ean: '5901234123457',
     name: 'Lavender Dreams',
     description: 'Calming lavender soap with organic oils',
     price: 12.99,
     image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb',
-    category: 'soap'
+    category: 'soap',
+    stock_quantity: 150,
+    is_active: true,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
   },
   {
     id: '2',
+    sku: 'ROSE-001',
+    ean: '5901234123458',
     name: 'Rose Petal',
     description: 'Nourishing rose-infused soap',
     price: 14.99,
     image: 'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07',
-    category: 'soap'
+    category: 'soap',
+    stock_quantity: 120,
+    is_active: true,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
   },
   {
     id: '3',
+    sku: 'MTN-001',
+    ean: '5901234123459',
     name: 'Mountain Fresh',
     description: 'Refreshing pine and eucalyptus blend',
     price: 13.99,
     image: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e',
-    category: 'soap'
+    category: 'soap',
+    stock_quantity: 85,
+    is_active: true,
+    created_at: new Date().toISOString(),
+    updated_at: new Date().toISOString()
   }
 ];
 
