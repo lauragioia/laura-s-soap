@@ -1,3 +1,4 @@
+
 import { Product } from '@/types/product';
 
 interface ProductCardProps {
@@ -19,6 +20,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         <div className="space-y-2">
           <h3 className="font-playfair text-xl">{product.name}</h3>
           <p className="text-sm text-muted-foreground">{product.description}</p>
+          <p className="text-xs text-muted-foreground">SKU: {product.sku}</p>
           <p className="font-semibold">€{product.price.toFixed(2)}</p>
         </div>
       </div>
