@@ -1,3 +1,4 @@
+
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
@@ -5,7 +6,7 @@ const resources = {
   en: {
     translation: {
       "hero.title": "Natural Beauty, Handcrafted in France",
-      "hero.subtitle": "Discover our artisanal soaps made with love",
+      "hero.subtitle": "Discover our artisanal natural cosmetics made with love",
       "about.title": "Our Story",
       "about.description": "Each soap is handcrafted in our atelier in France using traditional methods and natural ingredients.",
       "products.title": "Our Collection",
@@ -18,7 +19,7 @@ const resources = {
   fr: {
     translation: {
       "hero.title": "Beauté Naturelle, Fabriquée en France",
-      "hero.subtitle": "Découvrez nos savons artisanaux faits avec amour",
+      "hero.subtitle": "Découvrez nos cosmétiques naturels artisanaux faits avec amour",
       "about.title": "Notre Histoire",
       "about.description": "Chaque savon est fabriqué à la main dans notre atelier en France selon des méthodes traditionnelles et des ingrédients naturels.",
       "products.title": "Notre Collection",
@@ -31,7 +32,7 @@ const resources = {
   it: {
     translation: {
       "hero.title": "Bellezza Naturale, Artigianale dalla Francia",
-      "hero.subtitle": "Scopri i nostri saponi artigianali fatti con amore",
+      "hero.subtitle": "Scopri i nostri cosmetici naturali artigianali fatti con amore",
       "about.title": "La Nostra Storia",
       "about.description": "Ogni sapone è realizzato a mano nel nostro atelier in Francia utilizzando metodi tradizionali e ingredienti naturali.",
       "products.title": "La Nostra Collezione",
@@ -44,7 +45,7 @@ const resources = {
   de: {
     translation: {
       "hero.title": "Natürliche Schönheit, Handgefertigt in Frankreich",
-      "hero.subtitle": "Entdecken Sie unsere handgefertigten Seifen, hergestellt mit Liebe",
+      "hero.subtitle": "Entdecken Sie unsere handgefertigten natürlichen Kosmetika, hergestellt mit Liebe",
       "about.title": "Unsere Geschichte",
       "about.description": "Jede Seife wird in unserem Atelier in Frankreich nach traditionellen Methoden und mit natürlichen Zutaten handgefertigt.",
       "products.title": "Unsere Kollektion",
